@@ -29,7 +29,7 @@ finance_agent = Agent(
         ],
     instructions=["Use tables to display the data"],
     show_tool_calls=True,
-    markdown=True                  
+    markdown=True
 )
 
 multi_AI_agent=Agent(
